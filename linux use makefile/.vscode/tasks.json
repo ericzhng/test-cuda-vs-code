@@ -1,0 +1,78 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "sh",
+    "args": ["-c"],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "BUILD",
+            // Make this the default build command.
+            "isBuildCommand": true,
+            // Show the output window only if unrecognized errors occur.
+            "showOutput": "always",
+            // No args
+            "args": ["make all"],
+            // Use the standard less compilation problem matcher.
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": ["relative", "${workspaceRoot}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "taskName": "RUN",
+            // Make this the default build command.
+            "isBuildCommand": true,
+            // Show the output window only if unrecognized errors occur.
+            "showOutput": "always",
+            // No args
+            "args": ["make run"],
+            // Use the standard less compilation problem matcher.
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": ["relative", "${workspaceRoot}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "taskName": "CLEAN",
+            // Make this the default build command.
+            "isBuildCommand": true,
+            // Show the output window only if unrecognized errors occur.
+            "showOutput": "always",
+            // No args
+            "args": ["make clean"],
+            // Use the standard less compilation problem matcher.
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": ["relative", "${workspaceRoot}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        }
+    ]
+}

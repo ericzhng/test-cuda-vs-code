@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.associations": {
+        "*.cu": "cpp",
+        "*.cuh": "cpp"
+    },
+
+    // Clang command or the path to the Clang executable
+    "clang.executable": "clang-3.5"
+
+}

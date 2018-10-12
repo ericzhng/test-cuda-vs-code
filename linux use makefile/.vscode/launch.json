@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch (Windows)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": []
+        },
+        {
+            "name": "C++ Attach (Windows)",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "program": "${workspaceRoot}/a.exe",
+            "processId": "${command.pickProcess}"
+        }
+    ]
+}

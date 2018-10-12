@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.10.25017/include/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.1/include",
+                "C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.10.25017/include/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt",
+                    "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.1/include",
+                    "C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
